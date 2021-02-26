@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int a,b,sum=0,diff=0,product=0,div=0;
+
+printf("enter two numbers \n");
+scanf("%d %d",&a,&b);
+sum=a+b;
+diff=a-b;
+product=a*b;
+div=a/b;
+printf("Sum=%d \nDiff=%d \nProduct=%d \nDiv=%d",sum,diff,product,div);
+getch();
+}
